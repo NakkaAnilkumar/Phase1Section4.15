@@ -11,6 +11,7 @@ namespace Phase1Section4._15
         static void Main(string[] args)
         {
             runApp();
+            Console.ReadLine();
         }
 
         public static void runApp()
@@ -48,7 +49,7 @@ namespace Phase1Section4._15
             {
                 Console.WriteLine("Found " + search + " at " + foundElem);
             }
-            Console.ReadLine();
+            
         }
     }
 
